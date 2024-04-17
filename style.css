@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.menu-navegacao-cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.menu-navegacao-cabecalho li  a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
