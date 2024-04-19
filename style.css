@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    background-image: url(assets/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height:718px ;
+    position: relative;
+    
+    
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 100px 30px 54px;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+   
+
+    
+    
+    
+}
+
+.topo-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topo-logo span{
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'MontSerrat', sans-serif;
+   
+}
+
+nav > .menu{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    font-family: 'Poppins',sans-serif;
+   
+}
+
+.menu li a{
+    color: black;
+    font-size: 16px;
+}
+
+.menu-icons{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.card{
+    position: absolute;
+    right: 58px;
+    top: 245px;
+    width: 643px;
+    background-color: #FFF3E3;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+
+.card-conteudo{
+    width: 561px;
+    font-family:'poppins',sans-serif;
+}  
+
+.card-conteudo span{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.card-conteudo h1{
+    margin-top: 4px;
+    color: #B88E2F;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 65px;
+    
+    
+    
+    
+}
+
+.card-conteudo p {
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    line-height: 24px;
+    
+
+}
+
+.card-conteudo a{
+    background-color: #B88E2F;
+    color: white;
+    padding: 25px 72px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
