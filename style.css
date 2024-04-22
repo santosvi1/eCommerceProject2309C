@@ -14,10 +14,10 @@ a{
 
 main{
     width: 100%;
-    background-image: url(assets/banner.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    height:718px ;
+    background: url(assets/banner.png) no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 718px;
     position: relative;
     
     
@@ -125,4 +125,50 @@ nav > .menu{
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.container-browse{
+    max-width: 1200px;
+    margin: 60px auto 20px auto;
+    font-family: 'Poppins',sans-serif;
+}
+
+.browse-the-range-text{
+    text-align: center;
+}
+
+.browse-the-range-text h2{
+    color: #333333;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.browse-the-range-text p{
+    color: #666666;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.browse-images{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;    
+}
+
+.images-content{
+    flex: 1;
+}
+
+.images-content img{
+    margin-bottom: 30px;
+    border-radius: 14px;
+}
+
+.images-content p{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
 }
